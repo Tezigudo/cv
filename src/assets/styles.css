@@ -138,22 +138,36 @@ h1, h2, h3, h4 {
     display: inline-block;
     font-size: 1.2rem;
 }
-
+/* 
 .skills::after {
+    display: block;
+     content: '••••';
+    color: var(--light-color);
+} */
+
+.skill-value{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+/* .skill-value::after {
     display: block;
     content: '••••';
     color: var(--light-color);
-}
+} */
 
-.skills-bar {
+/* .skills-bar {
     position: absolute;
     left: 0;
     top: 0;
-    overflow: hidden;
+     overflow: hidden;
 }
 
 .skills-bar::after {
     display: block;
     content: '••••';
     color: var(--bs-primary);
-}
+} 
+*/
